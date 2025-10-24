@@ -4,9 +4,11 @@
 
 ## Grob-Planung
 
-1. Für welche API möchten Sie ein eigenes *front end* erstellen?
-2. Welche groben Funktionalitäten soll Ihr *front end* zur Verfügung stellen?
-3. Was möchten Sie insbesondere dabei lernen oder üben?
+1. Für welche API möchten Sie ein eigenes *front end* erstellen? API-FOOTBALL
+   
+2. Welche groben Funktionalitäten soll Ihr *front end* zur Verfügung stellen? Fussball. Man soll zwischen verschiedenen Ligen und Mannschaften auswählen können um die Ergebnisse und die zukünftigen Spiele, Tabellen, Aufstellungen usw. zu sehen
+   
+3. Was möchten Sie insbesondere dabei lernen oder üben? Ich möchte so gut wie möglich mit Javascript umgehen können weil das ein wichtiger BEreich in der Informatik ist.
 
 ## 24.10.
 
