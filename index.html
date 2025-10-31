@@ -1,40 +1,73 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KickyFH</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KickyFH – Start</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <header>
-        <h1>KickyFH</h1>
-    </header>
-
-    <div class="container">
-        <aside>
-            <h2>Ligen</h2>
-            <ul>
-                <li>Premier League</li>
-                <li>Bundesliga</li>
-                <li>La Liga</li>
-                <li>Serie A</li>
-                <li>Ligue 1</li>
-            </ul>
-        </aside>
-
-        <main>
-            <h2>Startseite / Übersicht</h2>
-            <h3>Proof of Concept, AP3:</h3>
-            <p>Klicke auf den Button um eine Meldung auszulösen</p>
-            <button id = "testButton"> Klick Mich!</button>
-        </main>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="logo">KickyFH</h1>
+      <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Start</a>
+        <a class="nav__link" href="ligen.html">Ligen</a>
+        <a class="nav__link" href="spiele.html">Spiele</a>
+      </nav>
     </div>
+  </header>
 
-    <footer>
-        <p>© 2025 KickyFH – Faruk</p>
-    </footer>
-<script src="script.js"></script>
+  <main class="wrap">
+    <h2>Top-Ligen</h2>
+
+    <section class="grid">
+     
+     
+     
+        <!-- data-league für späteres JS -->
+      <article class="card js-league" data-league="Premier League">
+        <h3>Premier League</h3>
+        <p>England • 20 Teams</p>
+        <a class="btn" href="ligen.html">Öffnen</a>
+      </article>
+
+      <article class="card js-league" data-league="Bundesliga">
+        <h3>Bundesliga</h3>
+        <p>Deutschland • 18 Teams</p>
+        <a class="btn" href="ligen.html">Öffnen</a>
+      </article>
+
+      <article class="card js-league" data-league="La Liga">
+        <h3>La Liga</h3>
+        <p>Spanien • 20 Teams</p>
+        <a class="btn" href="ligen.html">Öffnen</a>
+      </article>
+
+      <article class="card js-league" data-league="Serie A">
+        <h3>Serie A</h3>
+        <p>Italien • 20 Teams</p>
+        <a class="btn" href="ligen.html">Öffnen</a>
+      </article>
+
+      <article class="card js-league" data-league="Ligue 1">
+        <h3>Ligue 1</h3>
+        <p>Frankreich • 18 Teams</p>
+        <a class="btn" href="ligen.html">Öffnen</a>
+      </article>
+
+      <article class="card js-league" data-league="Eredivisie">
+        <h3>Eredivisie</h3>
+        <p>Niederlande • 18 Teams</p>
+        <a class="btn" href="ligen.html">Öffnen</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© 2024 KickyFH</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
