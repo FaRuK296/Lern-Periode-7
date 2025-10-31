@@ -23,11 +23,16 @@ Heute habe ich mich entschieden eine Webseite über Fussball zu machen. Auf dies
 
 ## 31.10.
 
-- [ ] Header vervollständigen: Navi Links einfügen wie zum Beispiel Start Ligen Spiele...
-- [ ] Startseite: 3–6 Liga-Karten mit Name + kurzer Info.
-- [ ] Beim Klick auf eine Karte/Liga soll eine Nachricht per alert() erscheinen
-- [ ] Die API mit der WebApp verbinden um Informationen zu erhalten
+- [x] Header vervollständigen: Navi Links einfügen wie zum Beispiel Start Ligen Spiele...
+- [x] Startseite: 3–6 Liga-Karten mit Name + kurzer Info.
+- [x] Beim Klick auf eine Karte/Liga soll eine Nachricht per alert() erscheinen
+- [x] css design verbessern
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich die Navigation meiner Webseite KickyFH fertiggestellt und mehrere Seiten (Start, Ligen, Spiele) miteinander verbunden. Ausserdem habe ich mit JavaScript getestet, ob Klicks auf die Ligen funktionieren. Der Test mit der Meldung diente nur zur Überprüfung, dass mein Script richtig läuft. Danach habe ich das Projekt für die API-Verbindung vorbereitet, damit ich beim nächsten Mal echte Fußball-Daten abrufen kann.
 
-☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+## 6.11.
+- [ ] Verbindung zur API-Football herstellen und Daten abrufen. mit fetch()
+- [ ] Erste API-Daten im Browser darstellen. Aus den abgerufenen API-Daten werden Liga-Namen und Länder ausgelesen.
+- [ ] Benutzerfreundlichkeit verbessern. zum Beispiel: Falls ein Fehler auftritt (z. B. API offline oder Key falsch), erscheint eine Fehlermeldung im Browser.
+- [ ] mehr ligen hinzufügen
+  
