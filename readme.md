@@ -30,9 +30,17 @@ Heute habe ich mich entschieden eine Webseite über Fussball zu machen. Auf dies
 
 Heute habe ich die Navigation meiner Webseite KickyFH fertiggestellt und mehrere Seiten (Start, Ligen, Spiele) miteinander verbunden. Ausserdem habe ich mit JavaScript getestet, ob Klicks auf die Ligen funktionieren. Der Test mit der Meldung diente nur zur Überprüfung, dass mein Script richtig läuft. Danach habe ich das Projekt für die API-Verbindung vorbereitet, damit ich beim nächsten Mal echte Fußball-Daten abrufen kann.
 
-## 6.11.
-- [ ] Verbindung zur API-Football herstellen und Daten abrufen. mit fetch()
-- [ ] Erste API-Daten im Browser darstellen. Aus den abgerufenen API-Daten werden Liga-Namen und Länder ausgelesen.
-- [ ] Benutzerfreundlichkeit verbessern. zum Beispiel: Falls ein Fehler auftritt (z. B. API offline oder Key falsch), erscheint eine Fehlermeldung im Browser.
-- [ ] mehr ligen hinzufügen
+## 7.11.
+- [x] Verbindung zur API-Football herstellen und Daten abrufen. mit fetch()
+- [x] Erste API-Daten im Browser darstellen. Aus den abgerufenen API-Daten werden Liga-Namen und Länder ausgelesen.
+- [x] Benutzerfreundlichkeit verbessern. zum Beispiel: Falls ein Fehler auftritt (z. B. API offline oder Key falsch), erscheint eine Fehlermeldung im Browser.
+- [x] mehr ligen hinzufügen
+      
+Heute habe ich versucht die api mit meiner seite zu verbinde. es hat geklappt aber irgendwie hat es nocht probleme. ich sehe die daten der ligen nicht so ganz.
+
   
+14.11.
+- [ ] die korrekten, also die top 5 ligen hinzufügen
+- [ ] Problem mit der verbindung lösen
+- [ ] Webseite schöner gestalten
+- [ ] benuterfreundlichkeit für handy anpassen
