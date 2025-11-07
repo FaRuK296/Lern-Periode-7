@@ -110,3 +110,9 @@ body {
 .meta { color: #6b7280; }
 
 .muted { color: #6b7280; font-size: 14px; margin-top: 8px; }
+
+#status {
+  text-align: center;
+  font-style: italic;
+  margin: 12px 0;
+}
