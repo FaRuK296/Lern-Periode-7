@@ -36,7 +36,7 @@ Heute habe ich die Navigation meiner Webseite KickyFH fertiggestellt und mehrere
 - [x] Benutzerfreundlichkeit verbessern. zum Beispiel: Falls ein Fehler auftritt (z. B. API offline oder Key falsch), erscheint eine Fehlermeldung im Browser.
 - [x] mehr ligen hinzufügen
       
-Heute habe ich versucht die api mit meiner seite zu verbinde. es hat geklappt aber irgendwie hat es nocht probleme. ich sehe die daten der ligen nicht so ganz.
+Heute habe ich versucht die api mit meiner seite zu verbinden. Es hat geklappt aber irgendwie hat es nocht probleme. ich sehe die daten der ligen nicht so ganz.
 
   
 14.11.
