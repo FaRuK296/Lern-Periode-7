@@ -40,7 +40,17 @@ Heute habe ich versucht die api mit meiner seite zu verbinden. Es hat geklappt a
 
   
 14.11.
-- [ ] die korrekten, also die top 5 ligen hinzufügen
-- [ ] Problem mit der verbindung lösen
-- [ ] Webseite schöner gestalten
-- [ ] benuterfreundlichkeit für handy anpassen
+- [x] die korrekten, also die top 5 ligen hinzufügen
+- [x] Problem mit der verbindung lösen
+- [x] Webseite schöner gestalten
+- [x] benuterfreundlichkeit für handy anpassen
+
+Heute habe ich doie API mit meiner Webseite verbunden. Ich habe jetzt eine Tabelle der Premier league auf meiner Seite.
+
+
+21.11.
+- [ ] Methode um den API-Key privat zu halten erstellen
+- [ ] Andere Ligen it der Gleichen Variante hinzufügen
+- [ ] Aktuelle Live daten hinzufügen und nicht alte tabellen 
+- [ ] Desing anpassen
+
