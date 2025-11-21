@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
@@ -19,28 +18,43 @@
     </div>
   </header>
 
-<main class="wrap">
-  <h2 id="leagueTitle">Liga – Tabelle</h2>
+  <main class="wrap">
+    <h2 id="leagueTitle">Liga – Tabelle</h2>
 
-  <div class="table-scroll">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>#</th><th>Team</th><th>Sp</th><th>S</th><th>U</th><th>N</th><th>Tore</th><th>Pkt</th>
-        </tr>
-      </thead>
-      <tbody id="standingsBody">
-        <tr><td colspan="8">Wird geladen …</td></tr>
-      </tbody>
-    </table>
-  </div>
+    
+    <div style="margin: 8px 0 16px;">
+      <label for="leagueSelect">Liga auswählen:&nbsp;</label>
+      <select id="leagueSelect">
+        <option value="39">Premier League</option>
+        <option value="78">Bundesliga</option>
+        <option value="140">La Liga</option>
+        <option value="135">Serie A</option>
+        <option value="61">Ligue 1</option>
+      </select>
+      <span class="muted">(* Daten bis Saison 2023 – Free-Plan Limit)</span>
+    </div>
 
+    <div class="table-scroll">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th><th>Team</th><th>Sp</th><th>S</th><th>U</th><th>N</th><th>Tore</th><th>Pkt</th>
+          </tr>
+        </thead>
+        <tbody id="standingsBody">
+          <tr><td colspan="8">Wird geladen …</td></tr>
+        </tbody>
+      </table>
+    </div>
 
-</main>
+    <p class="muted">* Daten werden über API-Football geladen (max. Saison 2023 im Free-Plan).</p>
+  </main>
 
   <footer class="site-footer">
     <div class="wrap">© 2025 KickyFH</div>
   </footer>
+
+  
   
   <script src="script.js"></script>
 </body>
