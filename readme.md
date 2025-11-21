@@ -49,8 +49,15 @@ Heute habe ich die API mit meiner Webseite verbunden. Ich habe jetzt eine Tabell
 
 
 21.11.
-- [ ] Methode um den API-Key privat zu halten erstellen
-- [ ] Andere Ligen it der Gleichen Variante hinzufügen
+- [x] Methode um den API-Key privat zu halten erstellen
+- [x] Andere Ligen it der Gleichen Variante hinzufügen
 - [ ] Aktuelle Live daten hinzufügen und nicht alte tabellen 
-- [ ] Design anpassen
+- [x] Design anpassen
 
+Heute habe ich versucht live Daten aus den Fusball-Tabellen zu laden. Ich wollte das ich auf meiner App nachschauen kann was gerade eben die aktuelle Tabelle ist. Jedoch habe ich später herausgefunden, dass man mit der Gratisversion leider nur die Daten bis 2023 abrufen kann. Jetzt habe ich Tabellen für die Top 5 Ligen aus dem Jahre 2023 erstellt. 
+
+28.11.
+- [ ] Die index.html Seite mit Inhalt befüllen, Z.B Algemeine News über Fussball
+- [ ] Spielresultate auf der Spielseite Anzeigen lassen und sie besser gestalten
+- [ ] css verbessern, smoother und moderneres Design
+- [ ] Bilder von Spielern hinzufügen
