@@ -57,7 +57,15 @@ Heute habe ich die API mit meiner Webseite verbunden. Ich habe jetzt eine Tabell
 Heute habe ich versucht live Daten aus den Fusball-Tabellen zu laden. Ich wollte das ich auf meiner App nachschauen kann was gerade eben die aktuelle Tabelle ist. Jedoch habe ich später herausgefunden, dass man mit der Gratisversion leider nur die Daten bis 2023 abrufen kann. Jetzt habe ich Tabellen für die Top 5 Ligen aus dem Jahre 2023 erstellt. 
 
 28.11.
-- [ ] Die index.html Seite mit Inhalt befüllen, Z.B Algemeine News über Fussball
-- [ ] Spielresultate auf der Spielseite Anzeigen lassen und sie besser gestalten
-- [ ] css verbessern, smoother und moderneres Design
-- [ ] Bilder von Spielern hinzufügen
+- [x] Die index.html Seite mit Inhalt befüllen, Z.B Algemeine News über Fussball
+- [x] Spielresultate auf der Spielseite Anzeigen lassen und sie besser gestalten
+- [x] css verbessern, smoother und moderneres Design
+- [x] Bilder von Spielern hinzufügen
+
+Heute habe ich die Startseite verbessert, neue Inhalte eingefügt und die Spiele-Seite vorbereitet. Außerdem habe ich Fehler im JavaScript gesucht und gelernt, wie man API-Antworten richtig prüft.
+
+5.11.
+- [ ] Auf der Startseite die Ligen zur auswahl mit fotos von ligen anzeigen lassen
+- [ ] Spielresultate korrekt auf der Spiele-Seite anzeigen
+- [ ] Design der Spielkarten verbessern
+- [ ] Farben anpassen, nicht alles weiss und blau
