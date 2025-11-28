@@ -1,4 +1,4 @@
-const API_KEY = "29cff8bf974b9b6dfd502addd7de24b1";
+const API_KEY = "";
 
 const LEAGUES = {
   39:  "Premier League",
@@ -107,4 +107,5 @@ function loadStandings(leagueId) {
       bodyEl.innerHTML =
         `<tr><td colspan="8">Fehler beim Laden: ${err.message}</td></tr>`;
     });
+
 }
