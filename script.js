@@ -1,4 +1,4 @@
-const API_KEY = "";
+const API_KEY = "29cff8bf974b9b6dfd502addd7de24b1";
 
 const LEAGUES = {
   39:  "Premier League",
@@ -10,9 +10,16 @@ const LEAGUES = {
 
 const DEFAULT_SEASON = 2023;
 
+
+// Ligenseite
 const titleEl  = document.getElementById("leagueTitle");
 const bodyEl   = document.getElementById("standingsBody");
 const selectEl = document.getElementById("leagueSelect");
+
+// Spieleseite
+const matchesTitleEl = document.getElementById("matchesTitle");
+const matchListEl    = document.getElementById("matchList");
+
 
 
 if (titleEl && bodyEl && selectEl) {
@@ -22,6 +29,10 @@ if (titleEl && bodyEl && selectEl) {
 
 function initLeaguePage() {
  
+
+
+
+
   selectEl.addEventListener("change", () => {
     const leagueId = Number(selectEl.value);
     loadStandings(leagueId);
@@ -30,6 +41,13 @@ function initLeaguePage() {
  
   const startLeagueId = Number(selectEl.value);
   loadStandings(startLeagueId);
+
+
+if (matchesTitleEl && matchListEl) {
+  initMatchesPage();
+}
+
+
 }
 
 
@@ -107,5 +125,6 @@ function loadStandings(leagueId) {
       bodyEl.innerHTML =
         `<tr><td colspan="8">Fehler beim Laden: ${err.message}</td></tr>`;
     });
+
 
 }

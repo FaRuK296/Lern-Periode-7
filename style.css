@@ -1,4 +1,19 @@
-/* Basis */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 * { box-sizing: border-box; }
 html, body { height: 100%; }
 body {
@@ -9,7 +24,7 @@ body {
 }
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
 
-/* Header / Navigation */
+
 .site-header {
   background: #1f2937; /* dunkelgrau */
   color: #fff;
@@ -40,6 +55,7 @@ body {
   background: #1f2937;
   color: #fff;
   margin-top: 32px;
+  
 }
 .site-footer .wrap { padding: 12px 16px; text-align: center; }
 
@@ -90,29 +106,80 @@ body {
   font-weight: 600;
 }
 
-/* Matchliste (Spiele) */
+/* Matchliste*/
 .matchlist {
-  list-style: none;
-  padding: 0;
   margin: 16px 0;
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
 .match {
   display: flex;
   justify-content: space-between;
-  padding: 12px 14px;
-  border-bottom: 1px solid #f1f5f9;
+  align-items: center;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
 }
-.match:last-child { border-bottom: 0; }
-.teams { font-weight: 600; }
-.meta { color: #6b7280; }
 
-.muted { color: #6b7280; font-size: 14px; margin-top: 8px; }
+.match-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.match-teams {
+  font-weight: 600;
+}
+
+.match-meta {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.match-score {
+  font-weight: 700;
+  font-size: 16px;
+}
+
 
 #status {
   text-align: center;
   font-style: italic;
   margin: 12px 0;
 }
+
+
+/* Intro-Box auf der Startseite */
+.intro {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
+}
+
+.intro h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.intro p {
+  margin: 0 0 6px;
+  line-height: 1.6;
+}
+
+/* Überschrift vor den Ligen-Karten */
+.section-title {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+
