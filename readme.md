@@ -62,10 +62,19 @@ Heute habe ich versucht live Daten aus den Fusball-Tabellen zu laden. Ich wollte
 - [x] css verbessern, smoother und moderneres Design
 - [x] Bilder von Spielern hinzufügen
 
-Heute habe ich die Startseite verbessert, neue Inhalte eingefügt und die Spiele-Seite vorbereitet. Außerdem habe ich Fehler im JavaScript gesucht und gelernt, wie man API-Antworten richtig prüft.
+Heute habe ich die Startseite verbessert, neue Inhalte eingefügt und die Spiele-Seite vorbereitet. Ausserdem habe ich Fehler im JavaScript gesucht und gelernt, wie man API-Antworten richtig prüft.
 
-5.11.
-- [ ] Auf der Startseite die Ligen zur auswahl mit fotos von ligen anzeigen lassen
-- [ ] Spielresultate korrekt auf der Spiele-Seite anzeigen
-- [ ] Design der Spielkarten verbessern
-- [ ] Farben anpassen, nicht alles weiss und blau
+12.12.
+- [x] Auf der Startseite die Ligen zur auswahl mit fotos von ligen anzeigen lassen
+- [x] Spielresultate korrekt auf der Spiele-Seite anzeigen
+- [x] Design der Spielkarten verbessern
+- [x] Farben anpassen, nicht alles weiss und blau
+
+Heute habe ich das Design meiner Webseite verbessert, Farben angepasst und die Top-Ligen mit Bildern auf der Startseite dargestellt. Ausserdem habe ich die Struktur für die nächsten Arbeitsschritte vorbereitet
+
+17.12.
+- [ ] Wenn man auf der index Seite eine Liga auswählt, soll die entsprechende Tabelle auch erscheinen und nicht immer die Premier League
+- [ ] Spiele verscuhen zu Laden damit auch Spiele angezeigt werden
+- [ ] Projekt abschliessen. Zusammenfassung mit Screenshots und GIFs erstellen
+
+
