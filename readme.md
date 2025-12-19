@@ -73,8 +73,22 @@ Heute habe ich die Startseite verbessert, neue Inhalte eingefügt und die Spiele
 Heute habe ich das Design meiner Webseite verbessert, Farben angepasst und die Top-Ligen mit Bildern auf der Startseite dargestellt. Ausserdem habe ich die Struktur für die nächsten Arbeitsschritte vorbereitet
 
 17.12.
-- [ ] Wenn man auf der index Seite eine Liga auswählt, soll die entsprechende Tabelle auch erscheinen und nicht immer die Premier League
-- [ ] Spiele verscuhen zu Laden damit auch Spiele angezeigt werden
-- [ ] Projekt abschliessen. Zusammenfassung mit Screenshots und GIFs erstellen
+- [x] Wenn man auf der index Seite eine Liga auswählt, soll die entsprechende Tabelle auch erscheinen und nicht immer die Premier League
+- [x] Methode um den API Key zu schützen mit Hilfe von .gitignore erstellen 
+- [x] Projekt abschliessen. Zusammenfassung mit Screenshots und GIFs erstellen
+
+Erklärung für Verwendung des Api Keys:
+
+
+## Fertiges Projekt
+In diesem Projekt habe ich eine Fussball-Webseite erstellt, auf der man verschiedene Ligen ansehen kann. Die Tabellen werden mit JavaScript über eine externe API geladen und auf der Webseite angezeigt. Zusätzlich habe ich Bilder, ein modernes Design mit CSS und eine Navigation eingebaut. Wegen dem Free-Plan der API sind die Daten bis zur Saison 2023 begrenzt, trotzdem funktioniert die Seite korrekt und übersichtlich.
+
+![ezgif-50ba492591509ace](https://github.com/user-attachments/assets/4198fd38-5b6f-4b90-af6e-58ac04572816)
+
+
+
+## Reflexion
+Ich bin mit meinem Projekt zufrieden. Am Anfang war es schwierig, besonders der Umgang mit der API und dem API-Key. Mit der Zeit habe ich aber verstanden, wie HTML, CSS und JavaScript zusammenarbeiten. Ich habe gelernt, Daten von einer API zu laden, diese darzustellen und den Code besser zu strukturieren. Insgesamt habe ich meine Web- und Programmierkenntnisse verbessert.
+
 
 
