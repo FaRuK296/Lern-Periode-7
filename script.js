@@ -1,5 +1,3 @@
-const API_KEY = "";
-
 const LEAGUES = {
   39:  "Premier League",
   78:  "Bundesliga",
@@ -128,4 +126,3 @@ function loadStandings(leagueId) {
 
 
 }
-
