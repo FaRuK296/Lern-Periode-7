@@ -78,6 +78,9 @@ Heute habe ich das Design meiner Webseite verbessert, Farben angepasst und die T
 - [x] Projekt abschliessen. Zusammenfassung mit Screenshots und GIFs erstellen
 
 Erklärung für Verwendung des Api Keys:
+Der API-Key wird in einer separaten Datei (secret.js) gespeichert, die nicht auf GitHub hochgeladen wird. Diese Datei ist in der .gitignore eingetragen, damit der Schlüssel privat bleibt. Im Projekt gibt es zusätzlich eine secret.example.js, die zeigt, wie die Datei aufgebaut sein muss, ohne den echten API-Key zu enthalten.
+
+
 
 
 ## Fertiges Projekt
